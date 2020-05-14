@@ -1,0 +1,18 @@
+Stad Gent biedt gratis en voor niks open data aan. Iedereen kan met deze data aan de slag om bijvoorbeeld nieuwe mobiele- of webtoepassingen te creëren. Een parkeerapp, een applicatie voor de Gentse Feesten of gebruik in (studie)onderzoeken zijn slechts enkele van de mogelijkheden.
+
+Je moet een web-parkeerapplicatie bouwen met behulp van html, css en javascript. Door de onderstaande dataset te gebruiken kunnen we de bezetting van de parkeergarages ophalen in real time!
+
+https://datatank.stad.gent/4/mobiliteit/bezettingparkingsrealtime.json
+
+Het is de bedoeling dat je deze json-data ophaalt.
+
+Elke parking moet in html minstens volgende data bevatten:
+
+        Naam van de parking (in een heading)
+        Lijst (ul) met daarin de:
+            Capaciteit (li)
+            Beschikbaarheid (li)
+
+Breid vervolgens de applicatie verder uit met de beschikbare data!
+
+!BONUS! Controleer elke 5minuten opnieuw de bezetting van de garages.
